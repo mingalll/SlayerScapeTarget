@@ -1,13 +1,13 @@
-package com.example;
+package com.slayerscapetarget;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class SlayerScapeTargetPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(SlayerScapeTargetPlugin.class);
 		RuneLite.main(args);
 	}
 }
